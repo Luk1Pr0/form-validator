@@ -9,6 +9,47 @@
     <link rel="icon" type="image/png" href="Logo.png">
 </head>
 <body>
+    <div class="container">
+        <h1>Sign Up!</h1>
+        <!-- Form -->
+        <form id="form">
+            <!-- Full name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter full name">
+            </div>
+            <!-- Phone number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="07531 258 954">
+            </div>
+            <!-- Email address -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="email@mail.com">
+            </div>
+            <!-- Website URL -->
+            <div class="form-group">
+                <label for="website">Website URL</label>
+                <input type="text" id="website" placeholder="www.lukasz.co.uk">
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" placeholder="Enter password">
+            </div>
+            <!-- Password confirmation-->
+            <div class="form-group">
+                <label for="password2">Confirm password</label>
+                <input type="password" id="password2" placeholder="Confirm password">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <!-- Fail/Success Message -->
+        <div class="message-container">
+            <h3 id="message">Feel free to register!</h3>
+        </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
