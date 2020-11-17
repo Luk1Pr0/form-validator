@@ -16,30 +16,30 @@
             <!-- Full name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Enter full name" required minlength="2" maxlength="100"> 
+                <input type="text" id="name" placeholder="Enter full name" required minlength="2" maxlength="100" name="name"> 
             </div>
             <!-- Phone number -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" placeholder="07531 258 954" required
-                pattern="[0-9]{5}[0-9]{3}[0-9]{3}" minlength="11" maxlength="11">
+                pattern="[0-9]{5}[0-9]{3}[0-9]{3}" minlength="11" maxlength="11" name="phone">
             </div>
             <!-- Email address -->
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="email@mail.com" required>
+                <input type="email" id="email" placeholder="email@mail.com" required name="email">
             </div>
             <!-- Website URL -->
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input type="url" id="website" placeholder="www.lukasz.co.uk" required>
+                <input type="url" id="website" placeholder="www.lukasz.co.uk" required name="website">
             </div>
             <!-- Password -->
             <div class="form-group">
                 <label for="password1">Password</label>
                 <input type="password" id="password1" placeholder="Enter password (Min. 8 characters)" required
                 pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
-                title="Please include at least 1 lowercase, 1 uppercase character and a number">
+                title="Please include at least 1 lowercase, 1 uppercase character and a number" name="password">
             </div>
             <!-- Password confirmation-->
             <div class="form-group">
